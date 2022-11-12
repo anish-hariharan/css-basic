@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -72,4 +74,118 @@ main {
 .main-nav__items a:active {
     color: white;
     /* border-bottom: 3px solid white; */
+}
+
+.article {
+    display: inline-block;
+    background-color: #d5ffdc;
+    text-align: center;
+    margin: 8px;
+    padding: 16px;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.article--Recomended{
+    background-color: green;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 8px;
+}
+
+.plan-annotation {
+    background: white;
+    color: #19b84c;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 8px;
+    margin: 0 20px;
+}
+
+.plan-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    margin: 10px;
+}
+
+article > h1 {
+    color:#0e4f1f;
+}
+
+article > h2 {
+    color: rgb(218, 191, 20);
+}
+
+div > button {
+    background-color: rgb(216, 19, 234);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+div > button:hover,
+div > button:active {
+background:  violet;
+color: #19b84c;
+} 
+
+.footer{
+    background-color: rgb(198, 24, 71);
+    /* padding: 10px 0px; */
+}
+
+.many {
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+
+.list {
+    list-style: none;
+}
+
+.cont {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.list {
+    color: white;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+} 
+
+.image {
+    background: pink;
+    width: 128px;
+    border: 2px solid #42424422;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+}
+
+.footers {
+    background-color: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.disp {
+    list-style: none;
+    margin: 0 ;
+    padding: 0 ;
+    text-align: center;
+}
+
+.linky {
+    margin: 0 16px;
+    text-align: center;
 }
